@@ -363,7 +363,7 @@ nav .fa{
  /* ================================CSS FOR SMALL SCREEN============================= */
  @media only screen and (max-width: 600px) {
     #header{
-        background-image: url(/images/1.jpg);
+        background-image: url(1.jpg);
     }
     .header-text{
         margin-top: 100%;
