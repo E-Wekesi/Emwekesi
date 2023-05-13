@@ -1,0 +1,8 @@
+runtime: python37
+handlers:
+  - url: /(.+\.(gif|png|jpg|svg|css|js|html))$
+    static_files: \1
+    upload: .+\.(gif|png|jpg|svg|css|js|html)$
+  - url: /.*
+    static_files: index.html
+    upload: index.html

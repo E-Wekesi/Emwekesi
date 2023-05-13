@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/3809d82209.js" crossorigin="anonymous"></script>
+    <title>User example- Portfolio</title>
+</head>
+<body>
+    <!-- ==============================HEADER================================== -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <label class="logo"><SPan style="color: peru;">P</SPan>ORTFOLIO</label>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-arrow-circle-o-right" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-reorder" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I am <span>Testing Test</span> <br> From Kenya</h1>
+                <p>:A Full-Stack Developer</p>
+            </div>
+        </div>
+    </div>
+
+<!-- =======================================ABOUT SECTION========================== -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="3.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="about-me-text">As a computer science student, I am passionate about using technology 
+                    to solve complex problems and create innovative solutions.</br> 
+                    I have a strong foundation in programming languages such as python and javascript, 
+                    and I am always looking for opportunities to learn and grow in my field.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" id="skills-header" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" id="experience-header" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" id="education-header" onclick="opentab('education')">Education</p>
+                </div>
+                <hr class="horizontal-line-break">
+                <hr class="horizontal-line-break">
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Full-Stack Development</span><br>Web App Development</li>
+                        <li><span>Data Analytics</span><br>Statistical and Predictive Analysis<li>
+                        <li><span>IT Support</span><br>system adminstation services</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019-current</span><br>Studying Computer Science</li>
+                        <li><span>2022-2023</span><br>CODECADEMY:javascript && SQL</li>
+                        <li><span>2021-2022</span><br>COURSERA:IT support specialization</li>
+                        <li><span>2022-2023</span><br>COURSERA:Google Data analytics</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2019-current</span><br>Studying Computer Science</li>
+                        <li><span>2022</span><br>Internship at Mera Tech</li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- =======================================SERVICES SECTION====================================== -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+
+                <i class="fa-solid fa-code"></i>
+                <h2>Full-Stack Development</h2>
+                <p id="services-p-deco">I offer comprehensive services that span the entire cycle of software development. 
+                    From ideation to deployment.  </p>
+                    <p id="services-p-deco">My capabilities include:</p>
+                    <ol class="styleListWorkSection">
+                        <li class="styleListWorkSection-list">Frontend Development: </li>
+                        <li class="styleListWorkSection-list">Backend Development: </li>
+                        <li class="styleListWorkSection-list">Database Design: </li>
+                        <li class="styleListWorkSection-list">API Integration:</li>
+                        </ol>
+               
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+
+                <i class="fas fa-crop-alt"></i>
+                <h2>Professional Data Analytics</h2>
+                <p id="services-p-deco ">my services are geared towards transforming raw data into meaningful insights
+                     that drive decision-making and strategy for your business.</p> 
+                     <p id="services-p-deco "> Here's what I bring to the table:
+                </p>
+                <ol class="styleListWorkSection">
+                    <li class="styleListWorkSection-list">Data Collection and Cleaning: </li>
+                    <li class="styleListWorkSection-list">Data Visualization: </li>
+                    <li class="styleListWorkSection-list">Statistical Analysis: </li>
+                    <li class="styleListWorkSection-list">Predictive Analytics: </li>
+                    <li class="styleListWorkSection-list">Data Reporting:</li>
+                    </ol>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-ticket"></i>
+                <h2>IT support</h2>
+                <p id="services-p-deco">As an IT Support Specialist, my mission is to ensure your technology
+                     infrastructure runs smoothly and efficiently. 
+                     I provide a broad range of services to keep your systems secure, up-to-date and optimized..
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- =======================================PORTFOLIO============================================= -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png" alt="">
+                <div class="layer">
+                    <h3>Eccomerce site</h3>
+                    <p>A Fully Functional E-commerce web application sample</p>
+                    <a href="#"><i class="fa fa-external-link-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png" alt="">
+                <div class="layer">
+                    <h3>University Web App</h3>
+                    <p>A Sample of a university platform</p>
+                    <a href="#"><i class="fa fa-external-link-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png" alt="">
+                <div class="layer">
+                    <h3>Disease Prediction System</h3>
+                    <p>Web app for predicting diseases *N/B not for real world use</p>
+                    <a href="#"><i class="fa fa-external-link-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ==============================CONTACT PAGE===================================== -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa fa-envelope"></i> testingtest@gmail.com</p>
+                <p><i class="fa fa-phone"></i> 07********</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa fa-facebook-square"></i></a>
+                    <a href=""><i class="fa fa-instagram"></i></a>
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                    <a href=""><i class="fa fa-whatsapp"></i></a>
+                </div>
+                <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copywright">
+        <p> afanasworld </p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://kit.fontawesome.com/3809d82209.js" crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
