@@ -365,6 +365,9 @@ nav .fa{
     #header{
         background-image: url(1.jpg);
     }
+     .logo{
+         font-size: 16px;
+     }
     .header-text{
         margin-top: 100%;
         font-size: 16px;
