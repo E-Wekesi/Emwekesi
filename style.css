@@ -360,7 +360,17 @@ nav .fa{
     display: none;
     color: white;
 }
-
+/* ================================CSS FOR MEDUIM SCREEN============================= */
+@media screen and (min-width: 748px) and (max-width: 895px) {
+  .logo{
+         font-size: 28px;
+     }
+  .nav ul li a{
+    color: lightslategray;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+}
 
  /* ================================CSS FOR SMALL SCREEN============================= */
  @media only screen and (max-width: 700px) {
@@ -368,7 +378,7 @@ nav .fa{
         background-image: url(1.jpg);
     }
      .logo{
-         font-size: 20px;
+         font-size: 28px;
      }
     .header-text{
         margin-top: 100%;
