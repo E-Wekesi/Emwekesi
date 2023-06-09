@@ -360,13 +360,15 @@ nav .fa{
     display: none;
     color: white;
 }
+
+
  /* ================================CSS FOR SMALL SCREEN============================= */
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 700px) {
     #header{
         background-image: url(1.jpg);
     }
      .logo{
-         font-size: 16px;
+         font-size: 20px;
      }
     .header-text{
         margin-top: 100%;
