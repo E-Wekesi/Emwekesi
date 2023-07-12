@@ -16,7 +16,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(1.jpg);
+    background-image: url(./images/1.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -375,7 +375,7 @@ nav .fa{
  /* ================================CSS FOR SMALL SCREEN============================= */
  @media only screen and (max-width: 748px) {
     #header{
-        background-image: url(1.jpg);
+        background-image: url(./images/1.jpg);
     }
      .logo{
          font-size: 28px;
